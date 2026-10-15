@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PMKC Quiz</title>
+<meta name="description" content="Interactive quizzes for the Integrated Project Management Sourcebook (Mario Vanhoucke): baseline scheduling, schedule risk analysis and project control.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=JetBrains+Mono:wght@400;600;700&family=Source+Sans+3:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#home" aria-label="PMKC Quiz home">
+      <span class="brand-mark"><img src="img/cover-thumb.jpg" alt=""></span>
+      <span class="brand-name">PMKC <span>Quiz</span></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#home">The book</a>
+      <a href="#bs"><span class="dot" style="background:#5b8ee0"></span>Baseline Scheduling</a>
+      <a href="#ra"><span class="dot" style="background:#e3913f"></span>Risk Analysis</a>
+      <a href="#pc"><span class="dot" style="background:#35b3a2"></span>Project Control</a>
+      <a href="#dashboard">Dashboard</a>
+    </nav>
+  </div>
+</header>
+<main id="app" aria-live="polite">
+  <noscript><p>This quiz needs JavaScript. Please enable it in your browser.</p></noscript>
+</main>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
